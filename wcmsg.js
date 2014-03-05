@@ -6,5 +6,5 @@ var server = http.createServer(function (request, response) {
   response.end("This is Brijesh's app page\n");
 });
 
-// Listen on port 8000
+// Listen on port 80
 server.listen(80);
