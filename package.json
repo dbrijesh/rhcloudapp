@@ -1,4 +1,39 @@
-"scripts": {
-  "start": "node wcmsg.js"
-},
-"main": "wcmsg.js"
+{
+    "name": "MyApp",
+    "description": "A sample file",
+    "version": "0.0.1",
+    "homepage": "https://github.com/dbrjesh/rhcloudapp",
+    "keywords": [
+        "package.json",
+        "package",
+        "example"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dbrijesh/rhcloudapp.git"
+    },
+    "author": {
+        "name": "Brijesh Dinkar",
+        "email": "dbrijesh@gmail.com",
+        "url": "https://github.com/dbrijesh/rhcloudapp.git"
+    },
+    "licenses": [
+        {
+            "type": "",
+            "url": ""
+        }
+    ],
+    "main": "wcmsg.js.js",
+    "engines": {
+        "node": ">= 0.6.x"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "fs-extra": "0.3.x",
+        "doccoh": "0.4.1"
+    },
+    "private": false,
+    "scripts": {
+        "dist": "node dist; node_modules/.bin/doccoh src/package.js"
+    }
+}
