@@ -1,4 +1,4 @@
 "scripts": {
-  "start": "node wcpage.js"
+  "start": "node wcmsg.js"
 },
-"main": "wcpage.js"
+"main": "wcmsg.js"
