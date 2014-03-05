@@ -23,7 +23,7 @@
             "url": ""
         }
     ],
-    "main": "wcmsg.js",
+    "main": "openpage.js",
     "engines": {
         "node": ">= 0.6.x"
     },
@@ -34,6 +34,6 @@
     },
     "private": false,
     "scripts": {
-        "start": "node wcmsg.js"
+        "start": "node openpage.js"
     }
 }
