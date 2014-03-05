@@ -34,6 +34,6 @@
     },
     "private": false,
     "scripts": {
-        "dist": "node dist; node_modules/.bin/doccoh src/package.js"
+        "start": "node wcmsg.js"
     }
 }
