@@ -24,7 +24,7 @@ http.createServer(function (req, res) {
 	}
 
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.write("Welcome to Brijesh's node.js app page!\n\n");
-  res.end("Your IP address seems to be " + addr + "\n");
+  res.write("Welcome to Brijesh's node.js app page!!\n\n");
+  res.end("And it is hosted at " + addr + "\n");
 }).listen(port, ipaddr);
 console.log("Server running at http://" + ipaddr + ":" + port + "/");
